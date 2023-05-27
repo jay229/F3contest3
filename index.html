@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend 3 Contest-3</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200;300;400;600;700&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-child1">
+          <a href="#">Header</a>
+        </div>
+        <div class="nav-child2">
+          <a id="signup" href="#">Signup</a>
+          <a id="profile" href="#">Profile</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h2>Signup</h2>
+      <input type="text" id="f-name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="pwd" placeholder="Password" required />
+      <input
+        type="password"
+        id="c-pwd"
+        placeholder="Confirm Password"
+        required
+      />
+      <p id="signup-status">Successfully Signed Up!</p>
+      <button id="signup-btn" class="btn" type="submit" onclick="submitData()">Signup</button>
+    </main>
+    <script src="engine.js"></script>
+  </body>
+</html>

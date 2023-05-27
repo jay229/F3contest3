@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: 'Inter', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+   
+    
+}
+
+header {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+nav {
+    /* border: 1px solid red; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-child2{
+    /* border: 2px solid red; */
+    width: 14%;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 0;
+    margin-left: 7px;
+    /* border: 2px solid red; */
+    text-decoration: none;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width:30%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+input{
+    background-color: transparent;
+    outline-style: none;
+    border: 0;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 4px;
+    color: white;
+}
+.child-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#signup-status{
+    color: green;
+    display: none;
+}
+.btn{
+    width: 23%;
+    height: 3%;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.container{
+    /* border: 2px solid red; */
+   margin: 2%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.container > h2{
+    font-size: 30px;
+    font-style: 'Inter';
+}
+.profile-data{
+    font-size: 24px;
+}
+#logout-btn{
+    width: 8%;
+    margin-top: 20px;
+}
